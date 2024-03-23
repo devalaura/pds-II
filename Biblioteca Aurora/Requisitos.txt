@@ -1,0 +1,55 @@
+Requisitos funcionais
+    - Listar os livros do catálogo
+        O que? Listagem dos registros de livros do catálogo.
+        Por quê? Para facilitar a consulta de todos os livros disponíveis no acervo.
+        Por quem? Qualquer cliente com acesso à internet.
+        Quando? A qualquer momento, conforme necessidade do cliente.
+        Onde? Na página principal do site ou aplicativo móvel da biblioteca.
+        Como? Navegando até a página principal do site ou aplicativo móvel da biblioteca.
+
+    - Filtrar livros do catálogo
+        O que? Refinamento dos registros de livros do catálogo.
+        Por quê? Para tornar eficiente a consulta de livros específicos disponíveis, ou não, no acervo.
+        Por quem? Qualquer cliente com acesso à internet.
+        Quando? A qualquer momento, conforme necessidade do cliente.
+        Onde? Na página principal do site ou aplicativo móvel da biblioteca, pela barra de pesquisa.
+        Como? Navegando até a página principal do site ou aplicativo móvel da biblioteca e buscando por palavras chaves na barra de pesquisa.
+
+    - Reservar livros do catálogo
+        O que? Reserva de registros disponíveis no catálogo.
+        Por quê? Para facilitar aos clientes a reserva de livros disponíveis no acervo.
+        Por quem? Qualquer cliente com acesso à internet.
+        Quando? A qualquer momento, conforme necessidade do cliente.
+        Onde? Na página do livro selecionado.
+        Como? Clicando em reserva e preenchendo um formulário com os dados do cliente.
+
+    - Renovar empréstimos de livros
+        O que? Renovação de empréstimos já efetuados de livros do catálogo.
+        Por quê? Para facilitar a extensão de empréstimos de livros do acervo.
+        Por quem? Clientes que já fizeram empréstimos.
+        Quando? A partir do início e antes do final do empréstimo inicial, conforme necessidade do cliente.
+        Onde? Na página de acompanhamento de empréstimos.
+        Como? Inserindo o número da reserva e clicando em renovar.
+
+    - Inscrever em eventos culturais
+        O que? Inscrição em eventos culturais que ocorrerão na biblioteca e estão divulgados no sistema.
+        Por quê? Para facilitar o controle de fluxo de pessoas dos eventos.
+        Por quem? Qualquer cliente com acesso à internet.
+        Quando? Até data estipulada, de acordo com a ocorrência do evento.
+        Onde? Na página do evento escolhido.
+        Como? Clicando em quero participar e preenchendo um formulário com os dados necessários.
+    
+Requisitos não-funcionais
+    O que? Alta disponibilidade do acervo.
+    Por quê? Para disponibilizar o acervo à maior quantidade de pessoas possível.
+    Por quem? No sistema de catálogo de livros.
+    Quando? Em todas as buscas no catálogo.
+    Onde? No servidor do sistema do catálogo.
+    Como? Escolhendo um serviço de hospedagem que ofereça muitos pontos de disponibilidade e backup.
+
+    O que? Segurança dos dados trafegados.
+    Por quê? Para proteger as informações pessoais e confidenciais dos clientes. 
+    Por quem? O sistema de reservas, renovação de empréstimos e inscrição em eventos com protocolos de segurança.
+    Quando? Em todas as operações com troca de informações entre servidor e cliente.
+    Onde? No processo de comunicação entre o cliente e o servidor.
+    Como? Utilizando protocolos de criptografia, como SSL e/ou HTTPS.
