@@ -1,0 +1,55 @@
+Requisitos funcionais
+    - Efetuar compra de produto
+        O que? Regitrar nova compra de produto disponível no inventário.
+        Por quê? Para oferecer flexibilidade e disponibilidade ao cliente.
+        Por quem? Qualquer cliente com acesso à internet.
+        Quando? A qualquer momento, conforme necessidade do cliente.
+        Onde? Na página do produto do site ou aplicativo móvel da biblioteca.
+        Como? Através de um banco de dados para relacionar clientes e compras.
+
+    - Integrar sistema de GPS
+        O que? Integração de sistema de GPS ao sistema de entregas e rastreamento.
+        Por quê? Para tornar mais assertivo e preciso as entregas realizadas.
+        Por quem? Os entregadores credenciados e clientes que efetuaram compras.
+        Quando? No momento que uma nova entrega for criada.
+        Onde? Nos sistemas de entregas e rastreamento.
+        Como? Utilizando APIs de serviços de GPS e banco de dados para controle. 
+
+    - Buscar melhores rotas
+        O que? Buscar as 3 melhores opções de rotas entre 2 pontos.
+        Por quê? Para filtrar, minimizar o tempo e facilitar a escolha do entregador ao receber uma requisição de entrega.
+        Por quem? O entregador que fará a entrega e o cliente que a aguarda.
+        Quando? No momento que uma entrega é iniciada.
+        Onde? No sistema de entregas e rastreamento.
+        Como? Utilizando a API de serviços de GPS.
+
+    - Exibir rota escolhida
+        O que? Exibição da rota escolhida entre 2 pontos.
+        Por quê? Para guiar o entregador na entrega.
+        Por quem? O entregador que fará a entrega.
+        Quando? Quando uma entrega é selecionada.
+        Onde? No sistema de exibição de rotas.
+        Como? Utilizando o frontend da aplicação.
+
+    - Recalcular rota
+        O que? Mudança da rota durante o percurso.
+        Por quê? Para ajustar possíveis erros durante o percurso ou para selecionar nova rota, devido à quaiquer impecilhos durante o percurso.
+        Por quem? O entregador que está em percurso.
+        Quando? Durante a entrega.
+        Onde? Na página de exibição de rotas.
+        Como? Utilizando a API integrada de sistema de GPS e o frontend da aplicação.
+    
+Requisitos não-funcionais
+    O que? Desacoplamento dos serviços.
+    Por quê? Para tornar a aplicação escalável.
+    Por quem? Para futuras novas implementações.
+    Quando? Em todas os desenvolvimentos.
+    Onde? No código fonte da aplicação.
+    Como? Utilizando definições de tipos para os objetos da aplicação e cabeçalhos para seus métodos.
+
+    O que? Segurança dos dados trafegados.
+    Por quê? Para proteger as informações pessoais e confidenciais dos clientes. 
+    Por quem? O sistema de compras, entregas, rastreamento e integrações.
+    Quando? Em todas as operações com troca de informações entre servidor e cliente.
+    Onde? No processo de comunicação entre o cliente e o servidor.
+    Como? Utilizando protocolos de criptografia, como SSL e/ou HTTPS.

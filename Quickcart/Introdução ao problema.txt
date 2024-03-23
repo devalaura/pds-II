@@ -1,0 +1,4 @@
+A QuickCart busca desenvolver um sistema de logística avançado que suporte a missão de fornecer entregas no mesmo dia para o seus clientes. O sistema deve ser capaz de gerenciar e rastrear eficientemente o inventário, além de otimizar as rotas de entrega. A otimização das rotas de entrega é crucial e deve ser realizada através da integração com sistemas de mapeamento e GPS, permitindo que os motoristas escolham as rotas mais eficientes. Espera-se que o sistema seja altamente escalável, confiável e seguro, integrando-se perfeitamente com os sistemas dos parceiros. O objetivo final é melhorar a eficiência operacional, reduzir os tempos de entrega e aumentar a satisfação do cliente.
+
+- Identifique cinco requisitos funcionais e dois requisitos não funcionais.
+- Além disso, tente definir o arquivo .h que atenda cada requisito do sistema. Em anexo um exemplo da estrutura que deve ser entregue.
