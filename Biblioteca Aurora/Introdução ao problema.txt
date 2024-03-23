@@ -5,3 +5,4 @@ Para enfrentar esse desafio, a biblioteca decidiu implementar um novo sistema de
 A Biblioteca Aurora espera que, com essas melhorias, possa continuar a ser um farol de aprendizado e descoberta, atraindo não apenas os habitantes locais, mas também visitantes de terras distantes, ansiosos por explorar os tesouros literários que o Vale dos Livros tem a oferecer.
 
 - Identifique cinco requisitos funcionais e dois requisitos não funcionais.
+- Além disso, tente definir o arquivo .h que atenda cada requisito do sistema. Em anexo um exemplo da estrutura que deve ser entregue.
