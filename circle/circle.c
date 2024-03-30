@@ -1,8 +1,8 @@
 #define _USE_MATH_DEFINES
 
-#include <circle.h>
+#include "circle.h"
 #include <malloc.h>
-#include <cmath>
+#include <math.h>
 
 struct Circulo
 {
@@ -10,10 +10,12 @@ struct Circulo
     float raio;
 };
 
-Circulo circ_cria(float x, float y, float r) {
-    Circulo circle = {
-        {x, y}, r
-    };
+Circulo* circ_cria(float x, float y, float r) {
+    struct Circulo* circle = (struct Circulo*)malloc(sizeof(struct Circulo));
+    
+    circle->coordenadas[0] = x;
+    circle->coordenadas[1] = y;
+    circle->raio = r;
 
     return circle;
 }
