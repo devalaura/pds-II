@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 void main() {
-    Circulo* c1 = circ_cria(1.2, 2.0, 1.0);
-    Circulo* c2 = circ_cria(2.2, 1.0, 2.0);
+    Circulo* c1 = captura_valores_cria_circ();
+    Circulo* c2 = captura_valores_cria_circ();
     
     float areaC1 = circ_area(c1);
     printf("O valor da area do primeiro circulo e: %.2f.\n", areaC1);

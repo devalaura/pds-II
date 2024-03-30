@@ -2,6 +2,7 @@
 
 #include "circle.h"
 #include <malloc.h>
+#include <stdio.h>
 #include <math.h>
 
 struct Circulo
@@ -9,6 +10,24 @@ struct Circulo
     float coordenadas[2];
     float raio;
 };
+
+Circulo* captura_valores_cria_circ() {
+    float x;
+    printf("Digite o valor correspondente a coordenada 'x' do circulo: \n");
+    scanf("%f", &x);
+
+    float y;
+    printf("Digite o valor correspondente a coordenada 'y' do circulo: \n");
+    scanf("%f", &y);
+
+    float raio;
+    printf("Digite o valor correspondente ao raio do circulo: \n");
+    scanf("%f", &raio);
+
+    Circulo* circulo = circ_cria(x, y, raio);
+
+    return circulo;
+}
 
 Circulo* circ_cria(float x, float y, float r) {
     struct Circulo* circle = (struct Circulo*)malloc(sizeof(struct Circulo));

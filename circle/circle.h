@@ -1,5 +1,8 @@
 typedef struct Circulo Circulo;
 
+/* Captura os valores inseridos pelo usuário para criar o novo círculo. */
+Circulo* captura_valores_cria_circ();
+
 /* Cria um circulo com centro (x,y) e raio r */ 
 Circulo* circ_cria(float x, float y, float r); 
 
