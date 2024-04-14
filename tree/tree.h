@@ -33,3 +33,9 @@ void free_tree(struct Tree* tree);
  * @return Returns 1 if the element is in the tree, otherwise returns 0.
 */
 int find_tree_element(struct Tree* tree, int value);
+
+/**
+ * Function to print all tree elements.
+ * @param tree A pointer to a tree object.
+*/
+void print_tree(struct Tree* tree);

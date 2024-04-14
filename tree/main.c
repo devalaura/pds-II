@@ -4,6 +4,8 @@ void main() {
     int tree = creates_tree();
 
     finds_elements(tree);
+
+    print_tree(tree);
     
     free_tree(tree);
     printf("Bye, bye! :)");

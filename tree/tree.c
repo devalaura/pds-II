@@ -87,3 +87,13 @@ int find_tree_element(struct Tree* tree, int value) {
 
     return 0;
 }
+
+void print_tree(struct Tree* tree) {
+    if (tree == NULL)
+        return;
+
+    printTree(tree->smallest);
+    printf("%d, ", tree->value);
+    printTree(tree->biggest);
+
+}
