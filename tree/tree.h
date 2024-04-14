@@ -26,3 +26,10 @@ void push_biggest(struct Tree* tree, int new_value);
 */
 void free_tree(struct Tree* tree);
 
+/**
+ * Function to find an element of a tree.
+ * @param tree A pointer to a tree object.
+ * @param value The value wanted to be found.
+ * @return Returns 1 if the element is in the tree, otherwise returns 0.
+*/
+int find_tree_element(struct Tree* tree, int value);

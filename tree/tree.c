@@ -53,3 +53,19 @@ void free_tree(struct Tree* tree) {
         tree = auxbiggest;
     }
 }
+
+int find_tree_element(struct Tree* tree, int value) {
+    if (tree->value == value) {
+        return 1;
+    }
+
+    if (tree->biggest != NULL && tree->value < value) {
+        return find_tree_element(tree->biggest, value);
+    }
+
+    if (tree->smallest != NULL && tree->value > value) {
+        return find_tree_element(tree->smallest, value);
+    }
+
+    return 0;
+}
