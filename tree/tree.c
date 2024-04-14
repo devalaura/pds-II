@@ -24,7 +24,16 @@ void push_smallest(struct Tree* tree, int new_value) {
     if (new == NULL) {
         printf("Error allocating memory!\n");
         return;
-    } 
+    }
+
+    if (tree->smallest->value > new_value) {
+        return push_smallest(tree->smallest, new_value);
+    }
+
+    if (tree->value == new_value) {
+        printf("Value already inserted! Choose a new value.\n");
+        return;
+    }
 
     new->value = new_value;
     new->biggest = tree;
@@ -38,6 +47,15 @@ void push_biggest(struct Tree* tree, int new_value) {
         printf("Error allocating memory!\n");
         return;
     } 
+
+    if (tree->biggest->value < new_value) {
+        return push_biggest(tree->biggest, new_value);
+    }
+
+    if (tree->value == new_value) {
+        printf("Value already inserted! Choose a new value.\n");
+        return;
+    }
 
     new->value = new_value;
     new->biggest = NULL;
