@@ -1,12 +1,12 @@
-#ifndef FOLHA_BANANEIRA
-#define FOLHA_BANANEIRA
+#ifndef TAMPA
+#define TAMPA
 
 #include "../core-simulador-hpp/ArmaAtaque.hpp"
 #include "../core-simulador-hpp/ArmaDefesa.hpp"
-class FolhaBananeira : public ArmaDefesa
+class Tampa : public ArmaDefesa
 {
     public:
-        FolhaBananeira(string descricaoArma, int resistencia);
+        Tampa(string descricaoArma, int resistencia);
         string getDescricaoArma() override;
         int getResistencia() override;
 };

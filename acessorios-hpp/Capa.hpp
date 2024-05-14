@@ -1,12 +1,12 @@
-#ifndef CAPA_INVISIBILIDADE
-#define CAPA_INVISIBILIDADE
+#ifndef CAPA
+#define CAPA
 
 #include "../core-simulador-hpp/ArmaAtaque.hpp"
 #include "../core-simulador-hpp/ArmaDefesa.hpp"
-class CapaInvisibilidade : public ArmaDefesa
+class Capa : public ArmaDefesa
 {
     public:
-        CapaInvisibilidade(string descricaoArma, int resistencia);
+        Capa(string descricaoArma, int resistencia);
         string getDescricaoArma() override;
         int getResistencia() override;
 };

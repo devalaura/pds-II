@@ -1,12 +1,12 @@
-#ifndef LENCOL_MAGICO
-#define LENCOL_MAGICO
+#ifndef FOLHA
+#define FOLHA
 
 #include "../core-simulador-hpp/ArmaAtaque.hpp"
 #include "../core-simulador-hpp/ArmaDefesa.hpp"
-class LencolMagico : public ArmaDefesa
+class Folha : public ArmaDefesa
 {
     public:
-        LencolMagico(string descricaoArma, int resistencia);
+        Folha(string descricaoArma, int resistencia);
         string getDescricaoArma() override;
         int getResistencia() override;
 };
