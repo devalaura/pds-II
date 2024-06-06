@@ -1,4 +1,4 @@
-#include "Gerente.hpp"
+#include "./../hpp/Gerente.hpp"
 
 Gerente::Gerente(string nome, int id, double bonusAnual)
 : Funcionario(nome, id, Gerente::calcularSalarioTotal())
