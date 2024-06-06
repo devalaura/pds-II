@@ -1,7 +1,7 @@
 #include "./../hpp/Gerente.hpp"
 
 Gerente::Gerente(string nome, int id, double bonusAnual)
-: Funcionario(nome, id, Gerente::calcularSalarioTotal())
+: Funcionario(nome, id), bonusAnual(bonusAnual)
 { }
 
 double Gerente::calcularSalarioTotal() 
